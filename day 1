@@ -1,8 +1,21 @@
 veriable = changing memory location value
 #include<studio.h>
 #include<conio.h>
-int main{
+int main()
+{
 int array[5]={1,2,3,4,5};
 int size;
-clroer();//no output preriously virable
-printf("%d",&size);
+clsoer();
+printf(/n/t enter the size: ");
+scanf("%d",&size);
+for(int identifier=0;identifier <size;idenfier++)
+{
+printf("%d%"&array[identifier]);
+
+
+
+for reverse for (int identifier=size;indentifier )
+
+sum = sum+array[i]
+
+
