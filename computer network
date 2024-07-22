@@ -1,0 +1,42 @@
+------------------------------------------------------------------concept of layers----------------------------------------------------------
+Every network consists of a specific number of functions, layers, and tasks to perform. Layered Architecture in a computer network is defined as
+a model where a whole network process is divided into various smaller sub-tasks. These divided sub-tasks are then assigned to a specific layer to
+perform only the dedicated tasks. A single layer performs only a specific type of task. To run the application and provide all types of services to
+clients a lower layer adds its services to the higher layer present above it. Therefore layered architecture provides interactions between the sub-systems.
+If any type of modification is done in one layer it does not affect the next layer.
+
+
+
+------------------------------------------------------------------OSI model------------------------------------------------------------------
+Every network consists of a specific number of functions, layers, and tasks to perform. Layered Architecture in a computer network is defined as a model
+where a whole network process is divided into various smaller sub-tasks. These divided sub-tasks are then assigned to a specific layer to perform only the
+dedicated tasks. A single layer performs only a specific type of task. To run the application and provide all types of services to clients a lower layer adds
+its services to the higher layer present above it. Therefore layered architecture provides interactions between the sub-systems. If any type of modification 
+is done in one layer it does not affect the next layer
+
+
+OSI Model
+OSI stands for Open Systems Interconnection. OSI is a seven layered architecture. All these seven layers work collaboratively to transmit data from 
+one layer to another. Below are the layers of OSI Model.
+
+1. Physical Layer: Physical layer is the lowest layer of OSI model and is responsible for the physical connection between all the required devices. 
+The information present in physical layer is in the form of bits. Physical layer performs various functions such as bit rate control, bit synchronization, 
+transmission mode etc.
+
+2. Data Link Layer: Data Link layer provides with successful delivery of message from one node to the another. It checks whether this delivery of message 
+is error free. Other functions performed by data link layer are error control, framing, flow control etc.
+
+3. Network Layer: Network Layer is responsible for the transmission of data from one host to another host that is connected in different network. It performs
+other tasks such routing and logical addressing.
+
+4. Transport Layer: Transport Layer is defined as a layer that takes services from network layer and provides services to application layer. Other tasks performed
+by transport layer are service point addressing, segmentation and reassembling.
+
+5. Session Layer: Session layer is defined as a layer that is responsible for establishing a connection, maintenance of session and to provide with security. Other
+functions of session Layer are to establish session, termination and synchronization.
+
+6. Presentation Layer: The data from application layer is extracted at the presentation layer. This layer is also known as translation layer. The functions of presentation
+layer are encryption, decryption, compression and translation.
+
+7. Application Layer: Application layer is the topmost layer of OSI Model. Application layer is also known as desktop layer. It provides with other functions such as 
+directory services, mail services, network virtual terminal etc.
